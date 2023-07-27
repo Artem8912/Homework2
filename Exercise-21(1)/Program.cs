@@ -26,4 +26,3 @@ double Distance(int x1, int y1, int z1, int x2, int y2, int z2)
 double result = Distance(x1Coordinate,y1Coordinate,z1Coordinate,x2Coordinate,y2Coordinate,z2Coordinate);
 double dRound = Math.Round(result,2,MidpointRounding.ToZero);
 Console.WriteLine($"Расстояние между точками равно {dRound}");
-
