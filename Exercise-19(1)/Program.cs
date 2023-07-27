@@ -15,6 +15,6 @@ else
         return (digit1 == digit5) && (digit2 == digit4);
     }
     bool result = Palindrome(a);
-    Console.WriteLine(result ? "Число является палиндромом" : "Число не является палиндромом");
+    Console.WriteLine(result ? "Число является палиндромом": "Число не является палиндромом");
 
 }
